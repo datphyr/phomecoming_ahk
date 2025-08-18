@@ -42,7 +42,7 @@ HandleKey(key, sequence, timeout) {
     ; Cancel any existing reset timer for this key
     if (timers[key]) {
         SetTimer(timers[key], 0)  ; Turn off the timer
-        timers[key] := 0           ; Clear timer reference
+        timers[key] := 0          ; Clear timer reference
     }
     
     ; Increase press counter for this key
