@@ -4,9 +4,9 @@
 ; =========================================================================
 ; SECTION 1: CONFIGURATION - ADJUST THESE VALUES AS NEEDED
 ; =========================================================================
-global INTER_KEY_DELAY      := 200   ; Delay between keys in sequences (ms)
-global KEY_PRESS_DURATION   := 100   ; Duration to hold each key down (ms)
-global TRIPLE_PRESS_TIMEOUT := 1000  ; Time window for triple press (ms)
+global INTER_KEY_DELAY      := 200  ; Delay between keys in sequences (ms)
+global KEY_PRESS_DURATION   := 100  ; Duration to hold each key down (ms)
+global TRIPLE_PRESS_TIMEOUT := 500  ; Time window for triple press (ms)
 
 ; =========================================================================
 ; SECTION 2: INITIALIZATION
